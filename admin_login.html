@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - Skillfolio</title>
+    <link rel="stylesheet" href="login.css">
+    <style>
+        .container {
+            margin-top: 50px;
+            margin-left: 400px;
+            margin-right: 100px;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<div>
+    <div class="container"></div>
+    <form method="post" action="admin_login_process.php" onsubmit="return validateForm()">
+        <h2>Admin Login</h2>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br>
+        <input type="submit" value="Login">       
+    </form>
+</div>
+</body>
+</html>

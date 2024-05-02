@@ -1,0 +1,81 @@
+/* admin.css */
+
+/* Style for the navbar */
+.navbar {
+    background-color: #333; /* Change the background color */
+    color: white; /* Change the text color */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar button {
+    background-color: #555; /* Change the button background color */
+    color: white; /* Change the button text color */
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: #777; /* Change the button background color on hover */
+}
+
+.search-bar {
+    margin-right: 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.search-bar input[type="submit"] {
+    background-color: #4CAF50; /* Change the search button background color */
+    color: white; /* Change the search button text color */
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-bar input[type="submit"]:hover {
+    background-color: #45a049; /* Change the search button background color on hover */
+}
+
+/* Style for the portfolio section */
+.portfolio {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.portfolio h2 {
+    color: #333; /* Change the heading color */
+}
+
+.portfolio textarea {
+    width: 100%;
+    height: 100px;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.portfolio button {
+    background-color: #f44336; /* Change the button background color */
+    color: white; /* Change the button text color */
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.portfolio button:hover {
+    background-color: #d32f2f; /* Change the button background color on hover */
+}
